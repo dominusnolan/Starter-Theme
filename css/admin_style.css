@@ -1,0 +1,10 @@
+/*
+ * Plugin: Starter Shortcodes Plugin
+ * Author: AJ Clarke : http://wpexplorer.com
+ * Copyright: Copyright (c) 2012, AJ Clarke
+ * License: GNU General Public License version 2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.mce-toolbar .mce-btn-group .mce-starter { text-indent:-4000px; width:24px !important; background:url('../js/shortcodes/images/shortcodes.png') no-repeat center center !important; }
+.favicon_popup{background:darkred; color:#fff; border-radius:5px 5px 5px 5px; padding:7px 10px;line-height:15px; opacity:0.85; text-align:center;}
