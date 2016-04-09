@@ -5,14 +5,11 @@
  * @package starterTheme
  */
 
-/**
-
 /* 	Define Constants */
 define('THEMEROOT', get_stylesheet_directory_uri());
 define('IMAGES', THEMEROOT.'/images');
 
-/* Set the content width based on the theme's design and stylesheet.
-*/
+/* Set the content width based on the theme's design and stylesheet. */
 if ( ! isset( $content_width ) )
 	$content_width = 640; /* pixels */
 
@@ -141,6 +138,7 @@ function startertheme_scripts() {
 	wp_enqueue_script('backTop_script', (get_bloginfo('stylesheet_directory') . "/js/jquery.top.js"));
     wp_enqueue_script( 'startertheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 	wp_enqueue_script( 'startertheme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script('main_script', (get_bloginfo('stylesheet_directory') . "/js/init.js"));
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -19,7 +19,6 @@ $options = get_option('starter_custom_settings'); ?>
 		</title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-        <script src="<?php bloginfo( 'template_url' ); ?>/js/init.js" type="text/javascript"></script>
         <?php wp_head(); ?>
 	</head>
 
